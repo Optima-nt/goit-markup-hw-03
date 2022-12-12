@@ -39,7 +39,6 @@ img {
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-    flex-wrap: wrap;
 }
 
 .title {
@@ -54,7 +53,7 @@ img {
 .btn {
     min-width: 170px;
     padding: 16px 32px;
-    margin-bottom: 192px;
+    
     border-radius: 4px;
     border-color: var(--accent-color);
     color: #FFFFFF;
@@ -72,6 +71,9 @@ color: var(--primary-text-color)
     padding-bottom: 120px;
 }
 
+
+
+/* __________Studio_________ */
 
 
 
@@ -99,6 +101,7 @@ color: var(--primary-text-color)
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
+    display: flex;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -211,9 +214,6 @@ color: var(--primary-text-color)
     letter-spacing: 0.02em;
     color: #FFFFFF;
 }
-.text {
-   
-}
 
 
 /* =========BENEFITS========= */
@@ -222,8 +222,25 @@ color: var(--primary-text-color)
     background: #FFFFFF;
     
 }
+.text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
 
 .title-benefits {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
     margin-bottom: 8px;
 }
 
@@ -318,147 +335,6 @@ color: var(--primary-text-color)
 .title-team {
     margin-bottom: 8px;
 }
-/* ==========FOOTER============ */
-
-.footer {
-   
-    
-}
-.footer-page {
-    display: flex;
-    flex-direction: column;
-}
-.footer-text {
-    
-}
-
-.logo-footer {
-    padding: 0;
-    margin-bottom: 16px;
-    font-family: var(--secondary-font);
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.33;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--accent-color);
-}
-
-.logo-fooier:hover,
-.logo-footer:focus {
-    color: var(--accent-color);
-}
-
-.logo-part {
-    font-family: var(--secondary-font);
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.33;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--primary-text-color);
-}
-
-.logo-part:hover,
-.logo-part:focus {
-    color: var(--accent-color);
-}
-
-______________________________________________________________________________________
-______________________________________________________________________________________
-
-/* =======HEADER======== */
-
-.page-header {
-    background-color: #FFFFFF;
-}
-
-.logo {
-    font-family:var(--secondary-font);
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.33;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--accent-color);
-}
-.logo:hover,
-.logo:focus {
-    color:var(--accent-color);
-}
-.logo-part {
-    font-family: var(--secondary-font);
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.33;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--primary-text-color);
-}
-.logo-part:hover,
-.logo-part:focus {
-    color: var(--accent-color);
-}
-
-.navigation {}
-
-.menu {}
-
-.menu-item {}
-
-.menu-link {
-    font-family: var(--primary-font);
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color:var(--primary-text-color);
-}
-.menu-link:hover,
-.menu-link:focus   {
-    color: var(--accent-color);
-}
-
-.info {
-
-}
-.info-item {}
-
-.mail {
-    font-family:var(--primary-font);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--secondary-font);
-}
-.mail:hover,
-.mail:focus{
-    color: var(--accent-color);
-}
-.phone {
-    font-family:var(--primary-font);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--secondary-text-color);
- }
-
-
-.phone:hover,
-.phone:focus {
-    color: var(--accent-color);
-}
-
 
 
 /* =========LIST-BUTTONS=========== */
@@ -552,6 +428,7 @@ ________________________________________________________________________________
    
 }
 .jobs-title {
+    background-color: #FFFFFF;
     border: 0.5px solid #F4F4FD;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -568,8 +445,6 @@ ________________________________________________________________________________
     text-align: left;
 }
 .footer-page {
-    display: flex;
-    flex-direction: column;  
     text-align: left;
     
 }
@@ -591,7 +466,7 @@ ________________________________________________________________________________
     color: var(--accent-color);
 }
 
-.logo-fooier:hover,
+.logo-footer:hover,
 .logo-footer:focus {
     color: var(--accent-color);
 }
