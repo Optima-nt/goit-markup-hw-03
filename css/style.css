@@ -91,8 +91,6 @@ color: var(--primary-text-color)
 .page-header-container {
     display: flex;
     align-items: center;
-    
-    
 }
 
 .logo {
@@ -195,12 +193,10 @@ color: var(--primary-text-color)
 
 
 .hero {
-   
     padding-top: 192px;
     padding-bottom: 192px;
     text-align: center;
     background: #2E2F42;
-  
 }
 .hero-title {
     margin-left: auto;
@@ -220,7 +216,6 @@ color: var(--primary-text-color)
 
 .benefits {
     background: #FFFFFF;
-    
 }
 .text {
     font-family: 'Roboto';
@@ -231,7 +226,6 @@ color: var(--primary-text-color)
     letter-spacing: 0.02em;
     color: #434455;
 }
-
 
 .title-benefits {
     font-family: 'Roboto';
@@ -258,9 +252,7 @@ color: var(--primary-text-color)
 .services {
     background: #FFFFFF;
 }
-.servises-head {
-    padding-top: 0;
-}
+
 
 
 .services-title {
@@ -280,7 +272,6 @@ color: var(--primary-text-color)
     display: flex;
     align-items: center;
     flex-basis: calc((100%-48px)/3);
-   
 }
 .services-img:not(:last-child) {
     margin-right: 24px;
@@ -288,7 +279,6 @@ color: var(--primary-text-color)
 
 .services-img {
     border: 1px solid #E7E9FC;
-   
 }
 
 /* ============TEAM============ */
@@ -326,7 +316,8 @@ color: var(--primary-text-color)
 
 }
 .team-card {
-    padding: 16px 32px;
+    background-color: #FFFFFF;
+    padding: 32px 16px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
     text-align: center;
@@ -357,7 +348,6 @@ color: var(--primary-text-color)
     text-align: center;
     letter-spacing: 0.04em;
     cursor: pointer;
-   
 }
 .btn-list-all:hover,
 .btn-list-all:focus {
@@ -386,7 +376,6 @@ color: var(--primary-text-color)
     letter-spacing: 0.04em;
     color: #4D5AE5;
     cursor: pointer;
-
 }
 
 .btn-list:hover,
@@ -405,15 +394,10 @@ color: var(--primary-text-color)
 
 }
 
-
-
 /* ==========JOBS========== */
 
-.jobs {
-    padding-top: 96px;
-    padding-bottom: 120px;
+.jobs {  
 }
-
 
 .jobs-list {
     display: flex;
@@ -425,11 +409,12 @@ color: var(--primary-text-color)
 
 .jobs-list-item {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
-   
 }
+
 .jobs-title {
     background-color: #FFFFFF;
     border: 0.5px solid #F4F4FD;
+    border-top: transparent;
     padding-top: 32px;
     padding-bottom: 32px;
     padding-left: 16px;
@@ -437,35 +422,26 @@ color: var(--primary-text-color)
 }   
 
 
-
 /* ==============FOOTER=============== */
 
 .footer {
     background: #2E2F42;
-    text-align: left;
-}
-.footer-page {
-    text-align: left;
-    
-}
-.footer-text {
-    color: #FFFFFF;
-    
 }
 
+.footer-text {
+    color: #FFFFFF;
+}
 .logo-footer {
+    display: block;
     margin-bottom: 16px;
     font-family: var(--secondary-font);
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
-    display: flex;
-    align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--accent-color);
 }
-
 .logo-footer:hover,
 .logo-footer:focus {
     color: var(--accent-color);
@@ -476,8 +452,6 @@ color: var(--primary-text-color)
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
-    display: flex;
-    align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--primary-text-color);
@@ -489,8 +463,6 @@ color: var(--primary-text-color)
     font-weight: 800;
     font-size: 18px;
     line-height: 21px;
-    display: flex;
-    align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
