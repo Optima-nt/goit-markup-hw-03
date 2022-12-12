@@ -278,6 +278,7 @@ color: var(--primary-text-color)
 
 .team {
     background: #F4F4FD;
+    
 }
 
 .team-title {
@@ -320,19 +321,19 @@ color: var(--primary-text-color)
 /* ==========FOOTER============ */
 
 .footer {
+   
     
 }
 .footer-page {
     display: flex;
     flex-direction: column;
-    
-    
 }
 .footer-text {
     
 }
 
 .logo-footer {
+    padding: 0;
     margin-bottom: 16px;
     font-family: var(--secondary-font);
     font-weight: 800;
@@ -487,6 +488,9 @@ ________________________________________________________________________________
     background-color: #FFFFFF;
     color: #4D5AE5;
 }
+.btn-list-all:active {
+    color: var(--accent-color);
+}
 .menu-buttons-item:not(:last-child)  {
     margin-right: 24px;
 }
@@ -561,11 +565,13 @@ ________________________________________________________________________________
 
 .footer {
     background: #2E2F42;
-    padding: 100px 1020px 100px 156px;
+    text-align: left;
 }
 .footer-page {
     display: flex;
     flex-direction: column;  
+    text-align: left;
+    
 }
 .footer-text {
     color: #FFFFFF;
