@@ -260,12 +260,14 @@ color: var(--primary-text-color)
     display: flex;
     align-items: center;
     flex-basis: calc((100%-48px)/3);
+   
 }
 .services-img:not(:last-child) {
     margin-right: 24px;
 }
 
 .services-img {
+    border: 1px solid #E7E9FC;
    
 }
 
