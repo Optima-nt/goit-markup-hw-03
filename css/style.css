@@ -76,17 +76,21 @@ color: var(--primary-text-color)
 
 
 /* =======HEADER======== */
-
+.header {
+    
+}
 .page-header {
     background-color: #FFFFFF;
     padding-top: 24px;
     padding-bottom: 24px;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .page-header-container {
     display: flex;
     align-items: center;
-    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+    
+    
 }
 
 .logo {
@@ -132,7 +136,7 @@ color: var(--primary-text-color)
 }
 
 .menu-item:not(:last-child) {
-margin-right: 40px;
+    margin-right: 40px;
 }
 
 .menu-link {
@@ -185,15 +189,15 @@ margin-right: 40px;
     color: var(--accent-color);
 }
 /* =========HERO=========== */
+
+
 .hero {
-    margin-left: auto;
-    margin-right: auto;
+
     padding-top: 192px;
-    padding-bottom: 291px;
-   
-   
+    padding-bottom: 192px;
     text-align: center;
     background: #2E2F42;
+  
 }
 .hero-title {
     margin-bottom: 48px;
@@ -285,8 +289,8 @@ margin-right: 40px;
 
 .team-list {
     display: flex;
-   justify-content: center;
-   flex-basis: calc((100%-48px)/4);
+    justify-content: center;
+    flex-basis: calc((100%-48px)/4);
 }
 .team-item:not(:last-child) {
     margin-right: 24px;
@@ -300,6 +304,10 @@ margin-right: 40px;
 }
 .team-card {
     padding: 16px 32px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+    text-align: center;
+
 }
 .title-team {
     margin-bottom: 8px;
@@ -505,7 +513,7 @@ ________________________________________________________________________________
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    margin-bottom: 72px;
 }
 
 .menu-buttons-item {
@@ -513,10 +521,11 @@ ________________________________________________________________________________
 }
 
 
+
 /* ==========JOBS========== */
 
 .jobs {
-    padding-top: 0;
+    padding-top: 96px;
     padding-bottom: 120px;
 }
 
@@ -547,6 +556,7 @@ ________________________________________________________________________________
 
 .footer {
     background: #2E2F42;
+    padding: 100px 1020px 100px 156px;
 }
 .footer-page {
     display: flex;
